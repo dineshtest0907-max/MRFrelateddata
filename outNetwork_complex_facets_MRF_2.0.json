@@ -1,0 +1,23 @@
+{
+  "reporting_entity_name": "cms",
+  "reporting_entity_type": "cms",
+  "version": "2.0.0",
+  "last_updated_on": "2020-08-27",
+  "reporting_structure": [
+    {
+      "reporting_plans": [
+        {
+          "plan_name": "medicare",
+          "plan_id_type": "hios",
+          "plan_id": "WYOMDPPO",
+          "plan_market_type": "individual",
+          "issuer_name": "ISSUER_NAME_REQUIRED"
+        }
+      ],
+      "allowed_amount_file": {
+        "description": "Out-of-network allowed amounts file",
+        "location": "https://example.com/out-of-network-allowed-amounts.json"
+      }
+    }
+  ]
+}
