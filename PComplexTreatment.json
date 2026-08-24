@@ -1,0 +1,55 @@
+{
+  "reporting_entity_name": "cms",
+  "reporting_entity_type": "cms",
+  "plan_name": "medicaid",
+  "plan_id_type": "hios",
+  "plan_id": "WYOMDPPO",
+  "plan_market_type": "individual",
+  "issuer_name": "ISSUER_NAME_GOES_HERE",
+  "last_updated_on": "2020-08-27",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "provider_groups": [
+        {
+          "npi": [319761031],
+          "tin": {
+            "type": "ein",
+            "value": "121234121",
+            "business_name": "BUSINESS_NAME_FOR_EIN"
+          }
+        }
+      ],
+      "network_name": [
+        "NETWORK_NAME_1",
+        "NETWORK_NAME_2"
+      ]
+    }
+  ],
+  "in_network": [
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Carver, Robert.",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2022",
+      "billing_code": "99232",
+      "description": "MRF Complex Treatment",
+      "negotiated_rates": [
+        {
+          "provider_references": [1],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 123.88,
+              "expiration_date": "2028-01-01",
+              "service_code": ["11"],
+              "billing_class": "professional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
